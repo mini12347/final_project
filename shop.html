@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=New+Amsterdam&family=Platypi:ital,wght@0,300..800;1,300..800&family=Spicy+Rice&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="z-index: 2;">
+      <div class="container-fluid position-fixed ">
+          <img class="img-fluid" src="C:\Users\minya\Downloads\Capture_d_écran_2024-08-17_130632-removebg-preview.png"id="logo"alt="">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link text-uppercase" href="C:\Users\minya\OneDrive\Bureau\final project\flow.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link  text-uppercase" href="C:\Users\minya\OneDrive\Bureau\final project\shop.html">Shop</a></li>
+            <li class="nav-item"><a class="nav-link  text-uppercase" href="C:\Users\minya\OneDrive\Bureau\final project\blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link  text-uppercase" href="C:\Users\minya\OneDrive\Bureau\final project\sign in.html">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="d-none d-lg-block">
+          <a class="d-inline-flex align-items-center justify-content-center bg-white rounded-pill" href="C:\Users\minya\OneDrive\Bureau\final project\cart.html" style="width: 35px; height: 35px;">
+            <svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.875 0.875H2.125L2.375 2.125M3.375 7.125H9.625L12.125 2.125H2.375M3.375 7.125L2.375 2.125M3.375 7.125L1.94194 8.55806C1.54821 8.95179 1.82707 9.625 2.38388 9.625H9.625M9.625 9.625C8.93464 9.625 8.375 10.1846 8.375 10.875C8.375 11.5654 8.93464 12.125 9.625 12.125C10.3154 12.125 10.875 11.5654 10.875 10.875C10.875 10.1846 10.3154 9.625 9.625 9.625ZM4.625 10.875C4.625 11.5654 4.06536 12.125 3.375 12.125C2.68464 12.125 2.125 11.5654 2.125 10.875C2.125 10.1846 2.68464 9.625 3.375 9.625C4.06536 9.625 4.625 10.1846 4.625 10.875Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="d-lg-none">
+          <button class="btn btn-light d-flex align-items-center px-2 py-1 navbar-burger">
+            <svg viewbox="0 0 100 45" width="26" height="20"><rect width="100" height="6"></rect><rect y="18" width="100" height="6"></rect><rect y="38" width="100" height="6"></rect></svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <center><h1>Our product range</h1></center>
+    <div class="cat towels">
+        <h2>Towels</h2>
+        <div class="products">
+            <div class="card">
+                <div class="image"><img src="C:\Users\minya\Downloads\t.webp" alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">6 Black Towels</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="C:\Users\minya\Downloads\t2.webp"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">4 Grey Towels</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="C:\Users\minya\Downloads\t3.webp"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">8 Green Towels </span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">50 dt</span>
+                </div>
+                </div>
+            <div class="card">
+            <div class="image"><img src="C:\Users\minya\Downloads\t5.webp"alt=""></div>
+            <div class="content">
+                <span>quantity:</span> <br>
+                <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                <span class="quantity">0</span>
+                <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                <span class="title">6 MULTICOLORE Towels</span>
+                    <button class="CartBtn">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                    <span class="price">30 dt</span>
+            </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="C:\Users\minya\Downloads\t6.webp"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">4 Grey Towels</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="C:\Users\minya\Downloads\t7.webp"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">6 Light Blue Towels</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">30 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://m.media-amazon.com/images/I/81kZS3KjyzL._AC_UY327_QL65_.jpg"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">6 White Towels</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">30 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="C:\Users\minya\Downloads\t8.webp"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">6 Black Towels</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">30 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://m.media-amazon.com/images/I/91Vu0leCv-L._AC_UY327_FMwebp_QL65_.jpg"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">4 blue Towels</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://m.media-amazon.com/images/I/81FgJNHoNfL._AC_UY327_QL65_.jpg"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">Two Towels</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+                </div>
+        </div>
+        
+    </div>
+    
+    <div class="cat clothes">
+        <h2>Clothes</h2>
+        <div class="products">
+            
+            <div class="card">
+                <div class="image"><img src="https://m.media-amazon.com/images/I/81Ivmb-50yL._AC_SX569_.jpg"></div>
+                <div class="content">
+                    <span class="title">workout set</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">XS</button></li>
+                        <li class="item-list"><button class="item-list-button">S</button></li>
+                        <li class="item-list"><button class="item-list-button">M</button></li>
+                        <li class="item-list"><button class="item-list-button">L</button></li>
+                        <li class="item-list"><button class="item-list-button">XL</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">60 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://images-eu.ssl-images-amazon.com/images/I/81rf59ZP+sL._SLDPMOBCAROUSELAUTOCROP288221_MCnd_AC_SR462,693_.jpg"alt=""></div>
+                <div class="content">
+                    <span class="title">workout set</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">XS</button></li>
+                        <li class="item-list"><button class="item-list-button">S</button></li>
+                        <li class="item-list"><button class="item-list-button">M</button></li>
+                        <li class="item-list"><button class="item-list-button">L</button></li>
+                        <li class="item-list"><button class="item-list-button">XL</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://m.media-amazon.com/images/I/71q4isGJExL._AC_UY1000_.jpg"alt=""></div>
+                <div class="content">
+                    <span class="title">workout set</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">XS</button></li>
+                        <li class="item-list"><button class="item-list-button">S</button></li>
+                        <li class="item-list"><button class="item-list-button">M</button></li>
+                        <li class="item-list"><button class="item-list-button">L</button></li>
+                        <li class="item-list"><button class="item-list-button">XL</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                </div>
+            <div class="card">
+            <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6OEmgf7BRKpFsXNcQ2XiFXU8P4irqoCoy6-jSFi6GER2zQdGxbq2n_CAUDCd64_i0vhA&usqp=CAU"></div>
+            <div class="content">
+                <span class="title">workout set</span>
+                <span>quantity:</span> <br>
+                <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                <span class="quantity">0</span>
+                <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                <div class="size">
+                    <span>Size</span>
+                    <ul class="list-size">
+                    <li class="item-list"><button class="item-list-button">XS</button></li>
+                    <li class="item-list"><button class="item-list-button">S</button></li>
+                    <li class="item-list"><button class="item-list-button">M</button></li>
+                    <li class="item-list"><button class="item-list-button">L</button></li>
+                    <li class="item-list"><button class="item-list-button">XL</button></li>
+                    </ul>
+                </div>
+                    <button class="CartBtn">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                    <span class="price">120 dt</span>
+            </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3B7mwQmJZ99Lp42SkOOSUSCM4diL12yO8zZRy8OM7jEyIM7kZ-RHT0Ii6Jwo1wgfXnaI&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span class="title">workout set</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">XS</button></li>
+                        <li class="item-list"><button class="item-list-button">S</button></li>
+                        <li class="item-list"><button class="item-list-button">M</button></li>
+                        <li class="item-list"><button class="item-list-button">L</button></li>
+                        <li class="item-list"><button class="item-list-button">XL</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://m.media-amazon.com/images/I/81kVH2WUQmL._AC_SL1500_.jpg"alt=""></div>
+                <div class="content">
+                    <span class="title">workout set</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">XS</button></li>
+                        <li class="item-list"><button class="item-list-button">S</button></li>
+                        <li class="item-list"><button class="item-list-button">M</button></li>
+                        <li class="item-list"><button class="item-list-button">L</button></li>
+                        <li class="item-list"><button class="item-list-button">XL</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRicM_ihdN4MLuOw7XaEmZI73cuDlOFpZW_cKEaud7sZgz9oHRnotPNemQ-3vuaM-h_Bck&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span class="title">workout set</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">XS</button></li>
+                        <li class="item-list"><button class="item-list-button">S</button></li>
+                        <li class="item-list"><button class="item-list-button">M</button></li>
+                        <li class="item-list"><button class="item-list-button">L</button></li>
+                        <li class="item-list"><button class="item-list-button">XL</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT47UepKVJWz29tpPO6rYDL5R49gkavoCCSltLpHi5relWj0ZrnQHV0Qd14Hl35RCUre2U&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span class="title">workout set</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">XS</button></li>
+                        <li class="item-list"><button class="item-list-button">S</button></li>
+                        <li class="item-list"><button class="item-list-button">M</button></li>
+                        <li class="item-list"><button class="item-list-button">L</button></li>
+                        <li class="item-list"><button class="item-list-button">XL</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO6K4sN9rRFdowq3URublnZVRYdiQMAn5Hz6oVlcORjLnNSPy6BPFiqbT-FeFRsbwLgsQ&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span class="title">workout set</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">XS</button></li>
+                        <li class="item-list"><button class="item-list-button">S</button></li>
+                        <li class="item-list"><button class="item-list-button">M</button></li>
+                        <li class="item-list"><button class="item-list-button">L</button></li>
+                        <li class="item-list"><button class="item-list-button">XL</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnw0e68o4XIH-sVwOyKCVvL44v-z-7m8hBQJ4zGvfShohsWCbTm5l0E-rfR5TLfU3JmJw&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span class="title">workout set</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">XS</button></li>
+                        <li class="item-list"><button class="item-list-button">S</button></li>
+                        <li class="item-list"><button class="item-list-button">M</button></li>
+                        <li class="item-list"><button class="item-list-button">L</button></li>
+                        <li class="item-list"><button class="item-list-button">XL</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                </div>
+        </div>    
+    </div>
+    <div class="cat shoes">
+        <h2>shoes</h2>
+        <div class="products">
+            
+            <div class="card">
+                <div class="image"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhITEBASFRUVFxUQFRYSERgTExcQFRUYFiASExMaHSgkGBolHhYVITEiJSkrLi4vGiAzODMsOCgtLisBCgoKDg0OFxAQFy0lHSUrLS0tNy03Ky83LTE3LS0tKy0vLTItLSstLSs3KystLS0uNystKy0tListNy0vLy03K//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYCAwQHAf/EAEQQAAIBAgQCBwQFCQYHAAAAAAABAgMRBBIhMUFRBQYTImFxgTJCkaEHM1JisRUjNENTcsLR8BQXgqLB4SRUg5KTstL/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQMCBAX/xAApEQEAAgAFAgMJAAAAAAAAAAAAAQIDESExQQQSUVJxExQiMmGBkbHw/9oADAMBAAIRAxEAPwD3EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABjOaSbbSS1bbskubYhJNXTuns1qgMgAAAAFG6+Vqyq01206VPJGUezlFSnUdRxnGWaMstounlas7y0as71/B9K42k/zHSDqKOjpY2EKyu7WjKrTSnF6pa3e+myc/1+pzlWo2eWHZzzTdrRu7WWbeTV+D4sg63R6hTlUlGq1FaXhWqVWnp3cPTlFxvfVyblvey0D14cR2xnC89X+sSxHcqQ7KqlrDOpwfBulNbpPSzUZLjFE5c8Whi1KGXDUK9e69lqPZxW2Sc8sacV4WcvB6Ml+ia2JoyzSnKF5NKMI1Y08jfdc41dHJ2Sfdi1mtwTRLdPHEvUwVzoLrL2jlTxEY05p2U1NOlUWusU3mpysruMtNdJT3LEpX2DzTWY0l9AAQAAAAAAAAAAAAAAAAAAAA4umcW6NCtUWrhTnNLnJRdl6uyBGqidYenpVq04Rk+yhJwSW0nF2cpL3tb2vpa3idXVXpiVKpGnJ3pVHaP3JPhfir+tnr7DbqOD2stf81/N23JGhy56ap7p+PFEe7trl2vW0CsdF9ZLRUaqlKySzx7za4OUd7+KvckJ9Y6C2lOT5RpTcvhbfYryTh2idkuQnTvWCFDuR79V7QWtvGVvjbfyWpD9K9Y6tRZaK7KL3nLWpb7sFs/Nrg03sQVfCSpXzRmm/alUu3J8pS28bR0vd2vuaUwvMzq4qo5upUn335aLkrP/AG08Lv4sfbnrt4/18tziqtLzey89Nfhy/wBTSmteNtHJq0FbVpytZ23sr247h6axM+iehisy70rvXjfT+XjoZ1c0oTULZrSUc7ajnSTWZpNpXcXotnxK7/aJppRU0+7wlGV37LeyzKcWsrsoqSk7WSfVhOkXpZ75cqvupXcEk5cfzkEnvbM7aBZjwduEwzlC9elGM9rwkpJxsrSjJLVPlJX022Z39G9KTw14wXaQ3yXjFpb3i9FF24aJ2WxzUK8ZK642s00m09tr3bV0r7uN9nYwngIZu2VNOaWtSKcW045Vnasp3TSjm5aeyVzNs9LLz0d0vRr3VOeq3jJOE145ZWdvE7zzPF5oq8YZpJ6RzRjJ2vfJKTSbVufqSWB6frUlFOWeOl41daiTV7dotdPFPzIxtgeWV6BBYfrNTftRnHx0kvgtfl8NiVw2Np1PYnGXGyeq81ugwmlo3h0AAOQAAAAAAAAAAAAAIHrzNLA1727yjT15TnGP+rJ4rH0iTthLfaqU18G5/wAId4cZ2j1eaUMLr7T8nJ5fnovwJSlRnHnfazSzWjFS91K1k0znw8Drhe1k34WsuKe643S+BH0Zq3QxEvB/78fU2PEc/n+BrVWTtmSaW2iWmmzS7q0ttxfgK0472t4JJLySX4/7Fcdstirq2rW3Nb8vPTbwNuF6WnSXcn3drSvKPlGK1T8I8yNjNt2jFvZcct+U5Wa9Frt4X+PGRi0l35N9n3XG7fdbhCLl3mozzbWSW8nox7OOU9Tr4ep9dRdKUna6i4pyt7zhZrbXNotm76GWN6ApuCnTrJQ0d5RjODp6r2o2WW0nZtSSeWTvaxw4fqziaqbqyp0rpK8knK6t3lTytqCcIVIQlJO98y4HdDq7iaWZ4fEwu3KVu9HWereVvLNqd597VuTV0kkGMzEfLZFQ6u3jnhkrxacm6E6dRSjNJtXaWbPaM+OacczeW0TVVwrhfMqivnTzRmnLM05uKypycrKovtSi9oo7cdisr/43Cum+7PtYONGS7yzSzZstTK8rbv3lKyTSkbqOJm+7h8d3u/8Am8Q++nGSvC8lNTam1GWXZSUVleodRe0b/wB99UdGUle7fG7Sk7pvvONrXV8s1b2neKsk7yXRmLcasb65pdnJaaqckpLfVJtT46NxXE1YmvUg28RgqK1UlJwcGm4OK7SvTzRzLvKUlpGMkle9j5h8fGH1OGjTfdUW5VKmWOVxjaM4pQcXeL4Qi03vYLPxRt+kpj6MUpOm7wi3TlFt9yS0Sa+zwu9lbirkbKPP5/y3ub+hK7nVs7uMoS7TM39VZvPJy4qV487d57o1Rei3WnFPy1Te6ej4u6k3YqVzrpLjlPX+ufy8uBvo19vDZ8U+afBmqcPTfS6a3aa8r8NLvmnrqcWnpz420ej12/Hw43ia7rBhOtFWKyySkk2ryvmavo3K/K3DiiRodboP26Ul+7JS/GxSayUHaN7JK177Jbt7N3j4cOBlTpzkk7x5au+np/X4BnODSeHolDrFh5frMr++nH57ceZIUMRCavCcZLnGSkvijzGGGfGXwXHXn5nRSpqLvd35vf0sHE9PHEvSwUKj03VpvSo2uU25J+Guq9GW/orpKNdSy2vB5JJO9pZVLR8VZ7kYYmHNN3cAAzAAAAAAg+nIqpLJOEJwSTyzgprPrqk1o7Nak1OVk2+BGSV7t7vUCBn0Ph3+pt+7Oa/yttfI5avQVN+zUqx/eUai+WV/MsrpIdguQaRi3jlTq/V+p+rr0pfvqdN+iSkvmcU+gcWm7U1LxhVg76bLvp8ltf0uXqpThHdpeHH4GmVdL2I+sv5INI6m8KVT6vYydk6XYr7VSpC0Y34WcnmbV9mssmt3ZWHoXoilhdYXnUyqGeV0o043y06NO/ciszSesrPVnbVrcZS2+S8uCIjF9O04uyeZ/dWdbxWtmk13k9Jc9A4vjWtum5VfE+dt4lOxHWOo/YhFK1+8237Lfu5fDmY0+n6qeuW19kvvJauWbhyLkxzXdYm6s0mnupK8X5pkPj+r1KprRk6UtO63KdFqzi45b3gmm9rpPLLK2kR+F6yRf1kLcbwvyTsotva+7kr2eiJihi4TV4zT4b212sns3o9rkd1vNdpV2dPG4S2lRRTteF61GUY/4ZJNw0u1GUqlm9HZ6fyxCd+0wmEqe3FuNOScoTebVqLzKUEl9+pFxS4q5Uq0oO8W1/XFG/t4T+tpwb0d5QUldbXuroNYxo5r+NFOrdJSalCNKnCMpXkoQku0lJ3TqScW5qUXlvvKayK9rmrtnpx8ZLfheVoe8rwlbeaUUXCr0Lh7fo1FLSzpwVPRNtNOFrWbbTWzdzjq9B4bhQtyy1Jq1tVZZtLPVcnruGkY1I4QCr8sz87xbdr2eyTcU1J+44pbs1PELzsk1Zd6zV45Y3bTlFNqP3ZXsT66Dwy/VT/8rWmbPZWSss3e89dzZDouh+xb39qtVkrtuTds1rtt6+IX29PqgZQjJa24q619HzV/x0NMm6euZWbvq3le+91o9t36stVPBUo+zh6OyX1UZaRVkrtPZG6DcfYhGP7sIx/BBzPURxCuYWfaL82sz5R7z/y3OuPRlZ+44r77VP8A9mmTE6tWW8pfFnNVjlTlOSjGKvKUpKMYrnKT0S8w594nwcEuh/2laC8IRlU+by2+ZJ9TqeTEYqnGTcMlCUbtXV+1WqXHRfAjI411J9nhaTqz4tpqEVzadtPGTjfeOa1i19AdGSowbqSUqk2pTa9lNKyhHRXS11sr3btHZGV8S1t0qAA4AAAAAHB0zWyU8zlFRTTk5u0UubbatrYgo9Owe1bDvyqx/wDol+sXRUsTRnSU4xzWabhmtKLUk91xSKZiOpeNi70pYeS0eterSekWtlTlxa48AJ38rp7VKPpNP+I11cf9qo/RNL4pWK7Pqn0na3Z4d6Na46p+zy7dj9q78tPEwl1O6Qb+owm73xk370Hv2HJSXnblqEvW6Yox99N8l3nx5X5Mi8V1ik9KcLeMvOPBeb4nyPUzpFrWng46W0xVSWtpq9uwXGUePB89Nq6kY9vfBx1T+tqy0zRdvq1wi1634WdRC4jETqfWTb4293afurTZ7mGXXXn/ABRJ1/R9jWrf2vDRdrXVGpLXI439tcW2ff7u8Ze7x9DfNphZfbzW1qbbLyGZkr7Wnp/CzJRV/X+JImn9GeKtb8ow2y/o7v7GT7XLXzH92eLvf8o097/o3HNm+1z/AJDMyQeVW9P4TKKad4tp3tdNp+1Ll5smV9GOKtb8owtbL+j8MuXfNy/mbV9HGLvf8oUt836M98+e3t7X+TYzMkbhOmq0PeUlyenux4r13T3JrC9YIS0nFxe3hvbfb4tGhfRzirW/t1Ha2uGl9lx/aeN/OK8U9seoGK/5vDvj9RNa5ov9p4SX+LwAmsDjoy0pVIy45eNubg7SS8bHcqsXurP5FTq9Q8XsquFntbNGpDVZtdpc4f8Aa+emcOrPS0NIVqHgnjK2XhspUZW97hxXLWKtDprwPqUVxRW4dCdM/tcIv+vm09cH5GNTq10tJNPFUI+Ma9Va23tTp0+PC/8AMCyyqJK+tuey+JGYjrBQj+shJ3tanerrybhdRf7zRD1Po9xlR3q4+kvLDyqyWqft1KjfC3q/TZT+i67vV6QrT8oWW7eizaatgdaxuKr6YbDuCfv4l5FtfSmnr4NN6tab27sH1QUpRnjMROvJO6inkprS2ijazu27xUb6X43ywHUalS/W1ZebSJuh0RCOzl6sDpwmGhSioU4RhFbKKSXnpxN5ojhIrn8TZGmlsBmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/9k=" alt=""></div>
+                
+                <div class="content">
+                    <span class="title">Sneakers Nike</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">37</button></li>
+                        <li class="item-list"><button class="item-list-button">38</button></li>
+                        <li class="item-list"><button class="item-list-button">39</button></li>
+                        <li class="item-list"><button class="item-list-button">40</button></li>
+                        <li class="item-list"><button class="item-list-button">41</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                
+            </div>
+            <div class="card">
+                <div class="image"><img src="data:image/jpeg;base64,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"alt=""></div>
+                <div class="content">
+                    <span class="title">MULTICOLORE Sneakers</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">37</button></li>
+                        <li class="item-list"><button class="item-list-button">38</button></li>
+                        <li class="item-list"><button class="item-list-button">39</button></li>
+                        <li class="item-list"><button class="item-list-button">40</button></li>
+                        <li class="item-list"><button class="item-list-button">41</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">150 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="data:image/jpeg;base64,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"alt=""></div>
+                <div class="content">
+                    <span class="title">Black Sneakers</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">37</button></li>
+                        <li class="item-list"><button class="item-list-button">38</button></li>
+                        <li class="item-list"><button class="item-list-button">39</button></li>
+                        <li class="item-list"><button class="item-list-button">40</button></li>
+                        <li class="item-list"><button class="item-list-button">41</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">100 dt</span>
+                </div>
+                </div>
+            <div class="card">
+            <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpj1g-4Toy3-ZoiwFYQvRTqS5HmRUapUTMWA&s"alt=""></div>
+            <div class="content">
+                <span class="title">Black NIKE Sneakers</span>
+                <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                <div class="size">
+                    <span>Size</span>
+                    <ul class="list-size">
+                    <li class="item-list"><button class="item-list-button">37</button></li>
+                    <li class="item-list"><button class="item-list-button">38</button></li>
+                    <li class="item-list"><button class="item-list-button">39</button></li>
+                    <li class="item-list"><button class="item-list-button">40</button></li>
+                    <li class="item-list"><button class="item-list-button">41</button></li>
+                    </ul>
+                </div>
+                    <button class="CartBtn">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                    <span class="price">100 dt</span>
+            </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-t3bXSL3UUrPz8iG4PPAA2dH453IVRw1hg&s"alt=""></div>
+                <div class="content">
+                    <span class="title">Black NIKE Sneakers</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">37</button></li>
+                        <li class="item-list"><button class="item-list-button">38</button></li>
+                        <li class="item-list"><button class="item-list-button">39</button></li>
+                        <li class="item-list"><button class="item-list-button">40</button></li>
+                        <li class="item-list"><button class="item-list-button">41</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">100 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://images.reebok.eu/reebok-baskets-nano-x3-adventure_20138420_50315909_2048.jpg?c=1"alt=""></div>
+                <div class="content">
+                    <span class="title">RED Sneakers</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">37</button></li>
+                        <li class="item-list"><button class="item-list-button">38</button></li>
+                        <li class="item-list"><button class="item-list-button">39</button></li>
+                        <li class="item-list"><button class="item-list-button">40</button></li>
+                        <li class="item-list"><button class="item-list-button">41</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">200 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYeIF8kGDxEFm2ChnIVWIE-cyuv22_PieRCw&s"alt=""></div>
+                <div class="content">
+                    <span class="title">White Sneakers</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">37</button></li>
+                        <li class="item-list"><button class="item-list-button">38</button></li>
+                        <li class="item-list"><button class="item-list-button">39</button></li>
+                        <li class="item-list"><button class="item-list-button">40</button></li>
+                        <li class="item-list"><button class="item-list-button">41</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">200 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI0vKS6s2F0A-0IADNVYO2BVydPp8lr6Q5AQ&s"alt=""></div>
+                <div class="content">
+                    <span class="title">White Sneakers</span>
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">37</button></li>
+                        <li class="item-list"><button class="item-list-button">38</button></li>
+                        <li class="item-list"><button class="item-list-button">39</button></li>
+                        <li class="item-list"><button class="item-list-button">40</button></li>
+                        <li class="item-list"><button class="item-list-button">41</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">250 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhIeE4DmWTptVlbVRClY2pvEEq0IrhdN0h5w&s"alt=""></div>
+                <div class="content">
+                    <span class="title">MULTICOLORES Sneakers</span>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">37</button></li>
+                        <li class="item-list"><button class="item-list-button">38</button></li>
+                        <li class="item-list"><button class="item-list-button">39</button></li>
+                        <li class="item-list"><button class="item-list-button">40</button></li>
+                        <li class="item-list"><button class="item-list-button">41</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">200 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKtTIQHPXDGdKrBAIUo07IRHOAkLsRmViB7w&s"alt=""></div>
+                <div class="content">
+                    <span class="title">Green Sneakers</span>
+                    <div class="size">
+                        <span>Size</span>
+                        <ul class="list-size">
+                        <li class="item-list"><button class="item-list-button">37</button></li>
+                        <li class="item-list"><button class="item-list-button">38</button></li>
+                        <li class="item-list"><button class="item-list-button">39</button></li>
+                        <li class="item-list"><button class="item-list-button">40</button></li>
+                        <li class="item-list"><button class="item-list-button">41</button></li>
+                        </ul>
+                    </div>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">220 dt</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cat bottles">
+        <h2>Bottles</h2>
+        <div class="products">
+            
+            <div class="card">
+                <div class="image"><img src="https://www.camelbak.co.uk/cdn/shop/files/PRODUCTIMG_CBEDDPSSTVI25_58420.jpg?crop=center&height=4000&v=1700667183&width=4000" alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">water bottle</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Fa2HLGeyZANv5jkLX7tgce1Eed2X_SzWRghoNUyhGZi1EGd3a5rAscZfI8SPsfmieOA&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">water bottle</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ZhR9_6qa2uCs6tnW4CWuKRtQS3_vwPnn5l0jFZbt0okjue-vN0qtZmmNkfZYod6AJXs&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">water bottle</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+                </div>
+            <div class="card">
+            <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBGM9FXDs40uiBxIcETg_gTQpyAzo15yM8suBho90CTEdFkocSXQ14yhZlczTsyD_HZZU&usqp=CAU"alt=""></div>
+            <div class="content">
+                <span>quantity:</span> <br>
+                <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                <span class="quantity">0</span>
+                <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                <span class="title">water bottle</span>
+                    <button class="CartBtn">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                    <span class="price">20 dt</span>
+            </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://monos.uk/cdn/shop/products/KiyoUVC-Bottle_Studio_Fullsize-750ml_BlueHour_C2_3af6b47c-bbc1-4143-873f-f8e363faa2f9_900x.jpg?v=1678606802"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">water bottle</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmrPcYDfAfyPnCKDF5KaIk0F_0v1C9bhBlkUsdXWtZUzj3p95DI47NwszfE7ktBprZn1k&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">water bottle</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="data:image/jpeg;base64,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"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">water bottle</span>
+                    <button class="CartBtn">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                    <span class="price">20 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqs63yKyKg1cOx3GH39N0G3QRx8Vhgok-hvzjnixqmreT-ZBIdRF5Ntw806kwmLcbfvqs&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">water bottle</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQpzsEAMecPec-w_-loThGdtJw-kpcK1amRTnAgcVzB2T3KQ-uiaGPvlv8XVZAFbmxDyU&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">water bottle</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQbfFyhdU6XntpGvO9uEuaqELO6VwNqOVvbQ&s"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">water bottle</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+                </div>
+        </div>
+    </div>
+    <div class="cat bags">
+        <h2>Bags</h2>
+        <div class="products">
+            
+            <div class="card">
+                <div class="image"><img src="https://www.refinery29.com/images/8646462.jpg?format=webp&width=720&height=720&quality=85" alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">sports bag</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu4Q8EE3LPyvPZmfbSywSlzOkgqv_lDkzD2kpHlgdGuG4J0tHDYg3n94jhm2CQcCHBba4&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">sports bag</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://images-fe.ssl-images-amazon.com/images/I/81HPzerXIDL._AC_UL600_SR600,600_.jpg"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">sports bag</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                </div>
+            <div class="card">
+            <div class="image"><img src="https://images-na.ssl-images-amazon.com/images/I/81-7-xpG5IL._SLDPMOBCAROUSELAUTOCROP288221_MCnd_AC_SR462,693_.jpg"alt=""></div>
+            <div class="content">
+                <span>quantity:</span> <br>
+                <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                <span class="quantity">0</span>
+                <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                <span class="title">sports bag</span>
+                    <button class="CartBtn">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                    <span class="price">120 dt</span>
+            </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEZtFkReiqAM_dzzzL54xxK_h2hKyk89DIrchXlZnXs2pO3RZY_Qdd8t_3t5a2lFE6pt4&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">sports bag</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://m.media-amazon.com/images/I/71UFpK46OVL._AC_UY1000_.jpg"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">sports bag</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSukt-zFX_hEY145p_peuOg-C6Ep2Yc8QybndXs84rqirDUNF_1u8tilEv4w-Eaw8rt5yo&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">sports bag</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/7123252ccc0741c88f5eaf3301046823_9366/sport-bag.jpg"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">sports bag</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn7n0Y4wUmFh5c-xASSfaDmfem5v30Aksoqw&s"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">sports bag</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7AvRCT_l70TZNl-U2_f0YsqFlPoljgB8lMTr4f_dIsuQOxHtnl2PhVWJ-D8HHWLwnsig&usqp=CAUalt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">sports bag</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">120 dt</span>
+                </div>
+                </div>
+        </div>
+    </div>
+    <div class="cat dumbbells">
+        <h2>Dumbbells</h2>
+        <div class="products">
+            
+            <div class="card">
+                <div class="image"><img src="https://kefl.co.uk/cdn/shop/files/kefl-sports-neoprene-dumbbells-845360.jpg?v=1719220202&width=2000" alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">dumbbells set</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY9TGiMcmCxqhKZPP6B8ETOU3VJwoa2OVXSz20Dctm43z3Rw6AFO34mgHKv16mzMe5qFQ&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">dumbbells set</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://m.media-amazon.com/images/I/41B4w0nLVML._AC_.jpg"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">dumbbells set</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">20 dt</span>
+                </div>
+                </div>
+            <div class="card">
+            <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrh4feo-MXCoK0Dlefd88yS0Ie2quIjsY-2tnZYYan0YpZQGXqLOjstJ5Qb8hvUsN-mAc&usqp=CAU"alt=""></div>
+            <div class="content">
+                <span>quantity:</span> <br>
+                <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                <span class="quantity">0</span>
+                <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                <span class="title">dumbbells set</span>
+                    <button class="CartBtn">
+                        <span class="IconContainer"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                        </span>
+                        <p class="text">Add to Cart</p>
+                    </button>
+                    <span class="price">20 dt</span>
+            </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://target.scene7.com/is/image/Target/GUEST_9a28ef7c-6ade-4ddb-94fb-6528630546f3?wid=488&hei=488&fmt=pjpeg"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">dumbbells set</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">80 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlW5dHGFn29aZuLo-4v3p2o_z8l-cokzcVkCBFDSclUfpNlHVfnqgmOJ2jl-zyer-8ads&usqp=CAU"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">dumbbells set</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">80 dt</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image"><img src="https://media.kohlsimg.com/is/image/kohls/5713021?wid=620&hei=620&op_sharpen=1"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">dumbbells set</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">80 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="data:image/jpeg;base64,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"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">dumbbells set</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">80 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="data:image/jpeg;base64,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"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">dumbbells set</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">80 dt</span>
+                </div>
+                </div>
+            <div class="card">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlDJ5D6Ga8ofD4KtFMD0VNLpxDmBz6-YcLdw&s"alt=""></div>
+                <div class="content">
+                    <span>quantity:</span> <br>
+                    <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                    <span class="quantity">0</span>
+                    <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                    <span class="title">dumbbells set</span>
+                        <button class="CartBtn">
+                            <span class="IconContainer"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" fill="rgb(17, 17, 17)" class="cart"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            </span>
+                            <p class="text">Add to Cart</p>
+                        </button>
+                        <span class="price">80 dt</span>
+                </div>
+                </div>
+        </div>
+    </div>
+  </main>
+  <footer>
+    <p>Flow is an online store where you can find workout gear for women in Tunisia. <br>
+      Location: Tunis,Tunisia. <br>
+      Contacts: <br><i class="fa-solid fa-square-envelope"></i>  Mail: <a href="https://mail.google.com/mail/u/0/#inbox">Flow@gmail.com</a>  <br>  <i class="fa-brands fa-facebook"></i> Facebook: <a href="https://www.facebook.com">Flow_store</a> <br> <i class="fa-brands fa-square-instagram"></i> Instagram : <a href="https://www.instagram.com">Flow_the_store</a>
+    </p>
+    <div class="newsletter-form">
+      <p class="heading"> Subscribe to Our Newsletter</p>
+      <form class="forml">
+        <label for="email">Email:</label>
+        <input required="" placeholder="Enter your email address" name="email" id="email" type="email">
+        <input value="Subscribe" type="submit">
+      </form>
+    </div>
+  </footer>
+  <style>
+    .plus ,.minus,.quantity{
+        display: inline-block;
+        margin-right: 40px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .content{
+        margin-left: 40px;
+    }
+    .cat{
+        margin-left: 50px;
+    }
+    .products{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap:60px;
+        
+    }
+    nav{
+      margin-top: -30px;
+    }
+    header{
+      background-color: #92A0C9;
+      padding: 30px 0px 50px 0px;
+    }
+    h1,h2{
+        color: #92A0C9;
+        margin-top: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .container-fluid{
+    margin-top: 60px;
+    }
+    a,h1,span,p{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    }
+    #logo{
+    width:150px;
+    height:70px;
+    margin-top: -10px;
+    margin-right: 65%;
+    }
+    .nav-link:hover{
+    border-bottom: .5rem  solid white;
+    border-radius: 7px;
+    }
+    .newsletter-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    font-family:"New Amsterdam", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    
+    .heading {
+    font-weight: bold;
+    font-size: 20px;
+    }
+    
+    .newsletter-form h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+    }
+    
+    .newsletter-form label {
+    display: block;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+    }
+    
+    .newsletter-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    
+    .newsletter-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #92A0C9;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    
+    .newsletter-form input[type="submit"]:hover {
+    background-color: #92A0C9;
+    }
+    footer{
+    background-color: #92A0C9;
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+    margin-top: 100px;
+    }
+    
+    .card {
+        position: relative;
+        width: 17.875em;
+        height: 27.5em;
+        box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+        cursor: pointer;
+        transition: all 120ms;
+        background: #fff;
+        padding: 0.5em;
+        padding-bottom: 3.4em;
+    }
+    img{
+        width: 9.875em;
+        height: 10.5em;
+    }
+    
+    .card .title {
+        font-family:"New Amsterdam", sans-serif;
+        font-size: 0.9em;
+        position: absolute;
+        left: 0.625em;
+        bottom: 1.875em;
+        font-weight: 400;
+        color: #000;
+    }
+    
+    .card .price {
+        font-family: "New Amsterdam", sans-serif;
+        font-size: 0.9em;
+        position: absolute;
+        left: 0.625em;
+        bottom: 0.725em;
+        color: #000;
+    }
+    .text {
+        width:100px;
+        height:20px;
+        margin-top: 10px;
+        margin-left: 5px;
+
+    }
+    
+    .image {
+        background: rgb(241, 241, 241);
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+    }
+    .size {
+        font-size: 1rem;
+        color: var(--light);
+        margin-left: -35px;
+    }
+      
+    .list-size {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    
+    margin-top: 0.25rem;
+    }
+    
+    .list-size .item-list {
+    list-style: none;
+    }
+    
+    .list-size .item-list-button {
+    cursor: pointer;
+    
+    padding: 0.5rem;
+    background-color: var(--zinc-800);
+    
+    font-size: 0.75rem;
+    color: var(--light);
+    
+    border: 2px solid var(--zinc-800);
+    border-radius: 0.25rem;
+    
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .item-list-button:hover {
+    border: 2px solid var(--light);
+    }
+    .item-list-button:focus {
+    background-color: var(--primary);
+    
+    border: 2px solid var(--primary-shadow);
+    
+    box-shadow: inset 0px 1px 4px var(--primary-shadow);
+    }
+    .CartBtn {
+        width: 140px;
+        height: 40px;
+        border-radius: 12px;
+        border: none;
+        background-color: #92A0C9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition-duration: .5s;
+        overflow: hidden;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    
+    .IconContainer {
+        position: absolute;
+        left: -50px;
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+        z-index: 2;
+        transition-duration: .5s;
+    }
+    
+    .icon {
+        border-radius: 1px;
+    }
+    
+    .text {
+        display: flex;
+        justify-content:space-around;
+        color: rgb(17, 17, 17);
+        z-index: 0;
+        transition-duration: .5s;
+        font-size: 1.04em;
+        font-weight: 600;
+    }
+    
+    .CartBtn:hover .IconContainer {
+        transform: translateX(58px);
+        border-radius: 40px;
+        transition-duration: .5s;
+    }
+    
+    .CartBtn:hover .text {
+        transform: translate(10px,0px);
+        transition-duration: .5s;
+    }
+    
+    .CartBtn:active {
+        transform: scale(0.95);
+        transition-duration: .5s;
+    }
+  </style>
+  </body>
+  <script>
+    var p = document.querySelectorAll(".plus")
+    var m =document.querySelectorAll(".minus")
+    var q=document.querySelectorAll(".quantity")
+    var s=document.querySelectorAll(".item-list-button")
+    var btn=document.querySelectorAll(".CartBtn")
+    var img=document.querySelectorAll(".image img")
+    var titles=document.querySelectorAll(".title")
+    console.log(titles);
+    var prices=document.querySelectorAll(".price")
+    localStorage.setItem("cart",JSON.stringify([]))
+    for(let i=0;i<p.length;i++){
+        p[i].addEventListener('click',function(){
+            q[i].innerHTML=Number(q[i].innerHTML)+1
+        })
+    }
+    for(let i=0;i<m.length;i++){
+        m[i].addEventListener('click',function(){
+            if(q[i].innerHTML>0){
+                q[i].innerHTML=Number(q[i].innerHTML)-1
+            }
+            
+        })
+    }
+    for(let i=0;i<s.length;i++){
+        s[i].addEventListener('click',function(){
+            if(s[i].style.border===""){
+                s[i].style.border=".05rem solid grey"
+            }else{
+                s[i].style.border=""
+            }
+        })
+    }
+    for(let i=0;i<btn.length;i++){
+        btn[i].addEventListener("click",function(){
+        var cart= JSON.parse(localStorage.getItem("cart"))
+       
+        localStorage.setItem("cart",JSON.stringify([...cart,{
+            title:titles[i].innerHTML,
+            image:img[i].src,
+            price:prices[i].innerHTML,
+            quantity:q[i].innerHTML
+        }]))
+        })
+    }
+  </script>
+  </html>

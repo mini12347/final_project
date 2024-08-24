@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=New+Amsterdam&family=Platypi:ital,wght@0,300..800;1,300..800&family=Spicy+Rice&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="z-index: 2;">
+      <div class="container-fluid position-fixed ">
+          <img class="img-fluid" src="C:\Users\minya\Downloads\Capture_d_écran_2024-08-17_130632-removebg-preview.png"id="logo"alt="">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link text-uppercase" href="C:\Users\minya\OneDrive\Bureau\final project\flow.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link  text-uppercase" href="C:\Users\minya\OneDrive\Bureau\final project\shop.html">Shop</a></li>
+            <li class="nav-item"><a class="nav-link  text-uppercase" href="C:\Users\minya\OneDrive\Bureau\final project\blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link  text-uppercase" href="C:\Users\minya\OneDrive\Bureau\final project\sign in.html">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="d-none d-lg-block">
+          <a class="d-inline-flex align-items-center justify-content-center bg-white rounded-pill" href="C:\Users\minya\OneDrive\Bureau\final project\cart.html" style="width: 35px; height: 35px;">
+            <svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.875 0.875H2.125L2.375 2.125M3.375 7.125H9.625L12.125 2.125H2.375M3.375 7.125L2.375 2.125M3.375 7.125L1.94194 8.55806C1.54821 8.95179 1.82707 9.625 2.38388 9.625H9.625M9.625 9.625C8.93464 9.625 8.375 10.1846 8.375 10.875C8.375 11.5654 8.93464 12.125 9.625 12.125C10.3154 12.125 10.875 11.5654 10.875 10.875C10.875 10.1846 10.3154 9.625 9.625 9.625ZM4.625 10.875C4.625 11.5654 4.06536 12.125 3.375 12.125C2.68464 12.125 2.125 11.5654 2.125 10.875C2.125 10.1846 2.68464 9.625 3.375 9.625C4.06536 9.625 4.625 10.1846 4.625 10.875Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="d-lg-none">
+          <button class="btn btn-light d-flex align-items-center px-2 py-1 navbar-burger">
+            <svg viewbox="0 0 100 45" width="26" height="20"><rect width="100" height="6"></rect><rect y="18" width="100" height="6"></rect><rect y="38" width="100" height="6"></rect></svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="py-20 bg-light overflow-hidden">
+      <div class="container">
+        <div class="p-8 p-lg-20 bg-white">
+          <center><h2 class="mb-8 mb-md-20" style="color: #92A0C9;">Your cart</h2></center>
+          <table class="table">
+            <tr>
+              <div class="col-12 col-xl-8">
+                <div class="d-none d-lg-flex row">
+                  <div id="desc"class="col-12 col-lg-6">
+                    <h4 class="mb-6 text-secondary" style="font-size: 16px;">Description</h4>
+                  </div>
+                  <div id="price"class="col-12 col-lg-2">
+                    <h4 class="mb-6 text-secondary" style="font-size: 16px;">Price</h4>
+                  </div>
+                  <div  id="quantity" class="col-12 col-lg-2 text-center">
+                    <h4 class="mb-6 text-secondary" style="font-size: 16px;">Quantity</h4>
+                  </div>
+                  <div id="subtotal" class="col-12 col-lg-2 text-end">
+                    <h4 class="mb-6 text-secondary" style="font-size: 16px;">Subtotal</h4>
+                  </div>
+                </div>
+               
+              </div>
+            </tr>
+           
+          </table>
+          <div class="row align-items-center">
+           
+            <div class="col-12 col-xl-8">
+             
+             
+            </div>
+            <div class="col-12 col-xl-4 ">
+              <div class="p-6 p-md-12 ">
+                <h3 class=" mb-6 text-white">Cart totals</h3>
+                <div class=" d-flex mb-8 align-items-center justify-content-between pb-5 border-bottom border-info-light">
+                  <span class="text-light ">Subtotal</span>
+                  <span><span class="lead fw-bold text-white" id="sub">00</span>dt</span>
+                </div>
+                <h4 class=" mb-2 lead fw-bold text-white">Shipping</h4>
+                <div class=" d-flex mb-2 justify-content-between align-items-center">
+                  <span class="text-light ">shipping day</span>
+                  <span class="lead fw-bold text-white ">after 3 days</span>
+                </div>
+                <div class="d-flex mb-10 justify-content-between align-items-center">
+                  <span class="text-light">Shipping to tunisia</span>
+                  <span><span class="lead fw-bold text-white">8</span>dt</span>
+                </div>
+                <div class=" d-flex mb-10 justify-content-between align-items-center">
+                  <span class="lead fw-bold text-white">Order total</span>
+                  <span><span class="lead fw-bold text-white"id="total">00</span>dt</span>
+                </div>
+                <a class="btn  w-100 text-uppercase hh" style="margin-bottom: 30px;" href="#">Go to Checkout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+  <footer>
+    <p>Flow is an online store where you can find workout gear for women in Tunisia. <br>
+      Location: Tunis,Tunisia. <br>
+      Contacts: <br><i class="fa-solid fa-square-envelope"></i>  Mail: <a href="https://mail.google.com/mail/u/0/#inbox">Flow@gmail.com</a>  <br>  <i class="fa-brands fa-facebook"></i> Facebook: <a href="https://www.facebook.com">Flow_store</a> <br> <i class="fa-brands fa-square-instagram"></i> Instagram : <a href="https://www.instagram.com">Flow_the_store</a>
+    </p>
+    <div class="newsletter-form">
+      <p class="heading"> Subscribe to Our Newsletter</p>
+      <form class="forml">
+        <label for="email">Email:</label>
+        <input required="" placeholder="Enter your email address" name="email" id="email" type="email">
+        <input value="Subscribe" type="submit">
+      </form>
+    </div>
+  </footer>
+  <style>
+    h2{
+      margin-bottom:40px;
+    }
+    .hh{
+      background-color: #92A0C9;
+      margin-top: 30px;
+    }
+    .p-6{
+      background-color: #333;
+      padding:20px;
+    }
+    button {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid #18181a;
+      color: #18181a;
+      display: inline-block;
+      font-size: 15px;
+      line-height: 15px;
+      padding: 18px 18px 17px;
+      text-decoration: none;
+      cursor: pointer;
+      background: #fff;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    button span:first-child {
+      position: relative;
+      transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+      z-index: 10;
+    }
+    
+    button span:last-child {
+      color: white;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+      z-index: 100;
+      opacity: 0;
+      top: 50%;
+      left: 50%;
+      transform: translateY(225%) translateX(-50%);
+      height: 14px;
+      line-height: 13px;
+    }
+    
+    button:after {
+      content: "";
+      position: absolute;
+      bottom: -50%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      transform-origin: bottom center;
+      transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+      transform: skewY(9.3deg) scaleY(0);
+      z-index: 50;
+    }
+    
+    button:hover:after {
+      transform-origin: bottom center;
+      transform: skewY(9.3deg) scaleY(2);
+    }
+    
+    button:hover span:last-child {
+      transform: translateX(-50%) translateY(-50%);
+      opacity: 1;
+      transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+    }
+    nav{
+      margin-top: -30px;
+    }
+    header{
+      background-color: #92A0C9;
+      padding: 30px 0px 50px 0px;
+    }
+    p{
+        font-size: 20px;
+      }
+      .container-fluid{
+        margin-top: 60px;
+      }
+      a,h1,h4,h5,h2,h3,span,p{
+        font-family: "New Amsterdam", sans-serif;
+        font-weight: 400;
+      }
+      #logo{
+        width:150px;
+        height:70px;
+        margin-top: -10px;
+        margin-right: 65%;
+      }
+      .nav-link:hover{
+        border-bottom: .5rem  solid white;
+        border-radius: 7px;
+      }
+      .newsletter-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 2px solid #333;
+        border-radius: 8px;
+        background-color: #f7f7f7;
+        font-family: Arial, sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      }
+      
+      .heading {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      
+      .newsletter-form h2 {
+        margin-top: 0;
+        color: #333;
+        font-size: 24px;
+      }
+      
+      .newsletter-form label {
+        display: block;
+        font-weight: bold;
+        color: #666;
+        margin-bottom: 10px;
+      }
+      
+      .newsletter-form input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      .newsletter-form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        background-color: #92A0C9;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+      .newsletter-form input[type="submit"]:hover {
+        background-color: #92A0C9;
+      }
+      footer{
+        background-color: #92A0C9;
+        display: flex;
+        justify-content: space-between;
+        padding:30px;
+        margin-top: 100px;
+      }
+</style>
+<script>
+  var cart= JSON.parse(localStorage.getItem("cart"))
+  var d=document.querySelector("#desc")
+  var p=document.querySelector("#price")
+  var q=document.querySelector("#quantity")
+  var s=document.querySelector("#subtotal")
+  var table = document.querySelector(".table")
+  var sub=document.querySelector("#sub")
+  var total=document.querySelector("#total")
+  var si=0
+  var g=document.querySelector(".hh")
+  console.log(cart);
+  for(let i=0;i<cart.length;i++){
+     
+     var d1=document.createElement("span")
+     d1.textContent=cart[i].title
+     var d2=document.createElement("img")
+     d2.src=cart[i].image
+     console.log(d2);
+     var p1=document.createElement("span")
+     p1.textContent=cart[i].price
+     function convert(n){
+        for(let i=0;i<n.length;i++){
+          if (n[i]===" "){
+              n=n.slice(0,i)
+          }
+        }
+        return Number(n)
+     }
+     var q1=document.createElement("span")
+     q1.textContent=cart[i].quantity
+     var price= convert(p1.innerHTML)
+     var subt= price* Number(q1.innerHTML)
+     var tr=document.createElement('tr')
+     d2.style.width="100px"
+     d2.style.height="50px"
+     tr.innerHTML=`
+     <div class="col-12 col-xl-8">
+                <div class="d-none d-lg-flex row">
+                  <div id="desc"class="col-12 col-lg-6">
+                    <h4 class="mb-6 text-secondary" style="font-size: 16px;">${d1.innerHTML}</h4>
+                    <img style="width:300px; height:240px" src="${d2.src}" alt="">
+                  </div>
+                  <div id="price"class="col-12 col-lg-2">
+                    <h4 class="mb-6 text-secondary" style="font-size: 16px;">${p1.innerHTML}</h4>
+                  </div>
+                  <div  id="quantity" class="col-12 col-lg-2 text-center">
+                    <h4 class="mb-6 text-secondary" style="font-size: 16px;">${q1.innerHTML}</h4>
+                  </div>
+                  <div id="subtotal" class="col-12 col-lg-2 text-end">
+                    <h4 class="mb-6 text-secondary" style="font-size: 16px;">${subt}</h4>
+                  </div>
+                </div>
+               
+              </div>
+     `
+     
+     table.appendChild(tr)
+     si+=Number(subt)
+     
+  }
+  sub.innerHTML=si
+  total.innerHTML=Number(sub.innerHTML)+8
+  g.addEventListener("click",function(){
+    if(sub.innerHTML!=="00"){
+      window.alert("thank you for your purchase")
+    }
+    table.innerHTML=''
+    sub.innerHTML="00"
+    total.innerHTML="00"
+    
+  })
+</script>
+</body>
+</html>

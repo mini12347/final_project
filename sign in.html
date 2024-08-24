@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sign up</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=New+Amsterdam&family=Platypi:ital,wght@0,300..800;1,300..800&family=Spicy+Rice&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" style="z-index: 2;">
+      <div class="container-fluid position-fixed ">
+          <img class="img-fluid" src="C:\Users\minya\Downloads\Capture_d_écran_2024-08-17_130632-removebg-preview.png"id="logo"alt="">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link text-uppercase" href="C:\Users\minya\OneDrive\Bureau\final project\flow.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link  text-uppercase" href="C:\Users\minya\OneDrive\Bureau\final project\shop.html">Shop</a></li>
+            <li class="nav-item"><a class="nav-link  text-uppercase" href="C:\Users\minya\OneDrive\Bureau\final project\blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link  text-uppercase" href="C:\Users\minya\OneDrive\Bureau\final project\sign in.html">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="d-none d-lg-block">
+          <a class="d-inline-flex align-items-center justify-content-center bg-white rounded-pill" href="C:\Users\minya\OneDrive\Bureau\final project\cart.html" style="width: 35px; height: 35px;">
+            <svg width="13" height="13" viewbox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.875 0.875H2.125L2.375 2.125M3.375 7.125H9.625L12.125 2.125H2.375M3.375 7.125L2.375 2.125M3.375 7.125L1.94194 8.55806C1.54821 8.95179 1.82707 9.625 2.38388 9.625H9.625M9.625 9.625C8.93464 9.625 8.375 10.1846 8.375 10.875C8.375 11.5654 8.93464 12.125 9.625 12.125C10.3154 12.125 10.875 11.5654 10.875 10.875C10.875 10.1846 10.3154 9.625 9.625 9.625ZM4.625 10.875C4.625 11.5654 4.06536 12.125 3.375 12.125C2.68464 12.125 2.125 11.5654 2.125 10.875C2.125 10.1846 2.68464 9.625 3.375 9.625C4.06536 9.625 4.625 10.1846 4.625 10.875Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="d-lg-none">
+          <button class="btn btn-light d-flex align-items-center px-2 py-1 navbar-burger">
+            <svg viewbox="0 0 100 45" width="26" height="20"><rect width="100" height="6"></rect><rect y="18" width="100" height="6"></rect><rect y="38" width="100" height="6"></rect></svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <form class="form">
+    <p class="title">Register </p>
+    <p class="message">Signup now and get full access to our app. </p>
+        <div class="flex">
+        <label>
+            <input required="" placeholder="" type="text" class="input">
+            <span>Firstname</span>
+        </label>
+
+        <label>
+            <input required="" placeholder="" type="text" class="input">
+            <span>Lastname</span>
+        </label>
+    </div>  
+            
+    <label>
+        <input required="" placeholder="" type="email" class="input">
+        <span>Email</span>
+    </label> 
+        
+    <label>
+        <input required="" placeholder="" type="password" class="input">
+        <span>Password</span>
+    </label>
+    <label>
+        <input required="" placeholder="" type="password" class="input">
+        <span>Confirm password</span>
+    </label>
+    <button class="submit">Submit</button>
+</form>
+<footer>
+  <p>Flow is an online store where you can find workout gear for women in Tunisia. <br>
+    Location: Tunis,Tunisia. <br>
+    Contacts: <br><i class="fa-solid fa-square-envelope"></i>  Mail: <a href="https://mail.google.com/mail/u/0/#inbox">Flow@gmail.com</a>  <br>  <i class="fa-brands fa-facebook"></i> Facebook: <a href="https://www.facebook.com">Flow_store</a> <br> <i class="fa-brands fa-square-instagram"></i> Instagram : <a href="https://www.instagram.com">Flow_the_store</a>
+  </p>
+  <div class="newsletter-form">
+    <p class="heading"> Subscribe to Our Newsletter</p>
+    <form class="forml">
+      <label for="email">Email:</label>
+      <input required="" placeholder="Enter your email address" name="email" id="email" type="email">
+      <input value="Subscribe" type="submit">
+    </form>
+  </div>
+</footer>
+<style>
+    nav{
+      margin-top: -30px;
+    }
+    header{
+      background-color: #92A0C9;
+      padding: 30px 0px 50px 0px;
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 450px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 20px;
+      position: relative;
+      margin-top: 50px;
+      margin-left: 33%;
+    }
+
+    .title {
+      font-size: 28px;
+      color: #92A0C9;
+      font-weight: 600;
+      letter-spacing: -1px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding-left: 30px;
+    }
+
+    .title::before,.title::after {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      border-radius: 50%;
+      left: 0px;
+      background-color: #92A0C9;
+    }
+
+    .title::before {
+      width: 18px;
+      height: 18px;
+      background-color: #92A0C9;
+    }
+
+    .title::after {
+      width: 18px;
+      height: 18px;
+      animation: pulse 1s linear infinite;
+    }
+
+    .message, .signin {
+      color: rgba(88, 87, 87, 0.822);
+      font-size: 14px;
+    }
+
+    .signin {
+      text-align: center;
+    }
+
+    .signin a {
+      color: #92A0C9;
+    }
+
+    .signin a:hover {
+      text-decoration: underline #92A0C9;
+    }
+
+    .flex {
+      display: flex;
+      width: 100%;
+      gap: 6px;
+    }
+
+    .form label {
+      position: relative;
+    }
+
+    .form label .input {
+      width: 100%;
+      padding: 10px 10px 20px 10px;
+      outline: 0;
+      border: 1px solid rgba(105, 105, 105, 0.397);
+      border-radius: 10px;
+    }
+
+    .form label .input + span {
+      position: absolute;
+      left: 10px;
+      top: 15px;
+      color: grey;
+      font-size: 0.9em;
+      cursor: text;
+      transition: 0.3s ease;
+    }
+
+    .form label .input:placeholder-shown + span {
+      top: 15px;
+      font-size: 0.9em;
+    }
+
+    .form label .input:focus + span,.form label .input:valid + span {
+      top: 30px;
+      font-size: 0.7em;
+      font-weight: 600;
+    }
+
+    .form label .input:valid + span {
+      color: green;
+    }
+
+    .submit {
+      border: none;
+      outline: none;
+      background-color: #92A0C9;
+      padding: 10px;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 16px;
+      transform: .3s ease;
+    }
+
+    .submit:hover {
+      background-color:#92A0C9 ;
+    }
+
+    @keyframes pulse {
+      from {
+        transform: scale(0.9);
+        opacity: 1;
+      }
+
+      to {
+        transform: scale(1.8);
+        opacity: 0;
+      }
+    }
+    p{
+      font-size: 20px;
+    }
+    .container-fluid{
+      margin-top: 60px;
+    }
+    a,h1,span,p{
+      font-family: "New Amsterdam", sans-serif;
+      font-weight: 400;
+    }
+    #logo{
+      width:150px;
+      height:70px;
+      margin-top: -10px;
+      margin-right: 65%;
+    }
+    .nav-link:hover{
+      border-bottom: .5rem  solid white;
+      border-radius: 7px;
+    }
+    .newsletter-form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 2px solid #333;
+      border-radius: 8px;
+      background-color: #f7f7f7;
+      font-family: Arial, sans-serif;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    
+    .heading {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    
+    .newsletter-form h2 {
+      margin-top: 0;
+      color: #333;
+      font-size: 24px;
+    }
+    
+    .newsletter-form label {
+      display: block;
+      font-weight: bold;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    
+    .newsletter-form input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .newsletter-form input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      background-color: #92A0C9;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    
+    .newsletter-form input[type="submit"]:hover {
+      background-color: #92A0C9;
+    }
+    footer{
+      background-color: #92A0C9;
+      display: flex;
+      justify-content: space-between;
+      padding:30px;
+      margin-top: 100px;
+    }
+</style>
+</body>
+</html>
